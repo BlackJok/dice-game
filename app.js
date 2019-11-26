@@ -37,7 +37,7 @@ document.querySelector(".btn-hold").addEventListener("click", () => {
     document.getElementById("score-" + activePlayer).textContent =
       score[activePlayer];
 
-    if (score[activePlayer] >= 10) {
+    if (score[activePlayer] >= 100) {
       isGameOver = true;
       document.getElementById("name-" + activePlayer).textContent = "WINNER";
       document
